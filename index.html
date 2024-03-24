@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanta Sethi .Web Developer, programer,Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4289da82ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="unable to see">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark " onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                 <p>Full Stack Developer</p>
+                 <h1>Hi, I'm <span>Hemanta </span><br>Sethi from India.</h1>
+            </div>
+        </div>
+    </div>
+<!-------------About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel, velit, autem praesentium sed laboriosam porro obcaecati pariatur quam placeat iusto voluptatem facere voluptatum voluptatibus impedit incidunt debitis fuga? Distinctio.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Developer</span><br>Dsigning Web/App Interface</li>
+                            <li><span>Frontend Development</span><br>Dsigning Web Development</li>
+                            <li><span>Backend Development</span><br>Dsigning Web/App Interface Using Node Js</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>HTML5/CSS3</span><br>Dsigning Web/App Interface<br><span>+2yr.</span></li>
+                            <li><span>Frontend Development(HTML/CSS/JAVASCRIPT)</span><br>Dsigning Web Developments<br><span>+1yr 3 months.</span></li>
+                            <li><span>Backend Development(NODE.JS/REACT)</span><br>Dsigning Web/App Interface Using Node Js<br><span>+7 months.</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Skill Academy By Testbook</span><br>Full Stack Career Program<br>Sep 2023 - Ongoing</li>
+                            <li><span>Biju Patnaik University ,Rourkela, Odisha</span><br>B.Tech (CSE), 7.32 CGPA<br>2018-22</li>
+                            <li><span>Shanti institute of Management studies</span><br>Class 12, SCIENCE(IT)<br>2016-18</li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Service session-->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desiign</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto vero eos repellendus quos nulla voluptate, facere ipsam eligendi sequi veritatis? Tempora aliquam accusamus quibusdam totam? Hic iure atque modi nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Desiign</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto vero eos repellendus quos nulla voluptate, facere ipsam eligendi sequi veritatis? Tempora aliquam accusamus quibusdam totam? Hic iure atque modi nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Desiign</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto vero eos repellendus quos nulla voluptate, facere ipsam eligendi sequi veritatis? Tempora aliquam accusamus quibusdam totam? Hic iure atque modi nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----Portfolio--------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Stock Analysis</h3>
+                    <p>Stock Analysis has everything you need to analyze stocks, including detailed financial data, statistics, news and charts.</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Amazon web Services(AWS)</h3>
+                    <p> Build, Deploy, and Manage Websites, Apps or Processes On AWS Secure, Reliable Network. Sign Up for a Free Account & Experience AWS Secure, Reliable, Scalable Services. In-Memory Caching. Easily Manage Clusters. Highly Scalable. Secure Solutions.</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping Application</h3>
+                    <p> A well-crafted About Us page is the key to building trust and loyalty with your customers. 86% of consumers say authenticity is important when choosing a brand.</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------------------contact---------------->
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-contact">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sethihemanta200@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-63xxxxxx69</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rock.hemanta.526/about_contact_and_basic_info"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mr____hemanta?fbclid=IwAR0Ebwpwy4YiWzmzfpq2wt9x6tHQruYSuQEWAHVm4OTUUihUjxd6k_MyRUs"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hemanta-sethi-6a0330222/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCZiHIjHica5NNjrR2VnMYjg"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+                <a href="" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                 <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" id="message" rows="6" placeholder="message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copiright">
+        <p>Copiright @ Hemanta, Made With  <i class="fa-solid fa-heart"></i>  By Own Knowlage.</p>
+    </div>
+</div>
+
+      <script src="script.js"></script>
+</body>
+</html>
